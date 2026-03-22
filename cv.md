@@ -31,7 +31,7 @@ I am an automation QA who, due to project needs, is often involved in manual tes
 
 ## Code Examples:
 
-'''
+```
 let buttons = document.querySelectorAll(".tools_panel>button");
 const outlineElement = function(buttons, buttonText) {
   buttons.forEach(btn => {
@@ -41,7 +41,7 @@ const outlineElement = function(buttons, buttonText) {
   })
 }
 outlineElement(buttons, 'More');
-'''
+```
 
 ---
 
