@@ -14,7 +14,7 @@
 
 ## About Myself:
 
-I am an automation QA who, due to project needs, is often involved in manual testing and accessibility bug testing. My goal is to become a front-end developer because I am truly inspired by this profession. I see real magic in the ability to transform ideas into something tangible and useful through code, expressions, and tags—creating solutions that people can see, touch, and use. The journey is not simple, but I am confident that I have the persistence to succeed.
+I am an automation QA who, due to project needs, is often involved in manual testing and accessibility bug testing. My goal is to become a front-end developer because I am truly inspired by this profession. I see real magic in the ability to transform ideas into something tangible and useful through code, expressions, tags, something that people can see, touch, and use. The journey is not simple, but I am confident that I have the persistence to succeed.
 
 ---
 
@@ -27,6 +27,27 @@ I am an automation QA who, due to project needs, is often involved in manual tes
 - Selenium
 - Java
 
+---
+
+## Code Examples:
+
+'''
+let buttons = document.querySelectorAll(".tools_panel>button");
+const outlineElement = function(buttons, buttonText) {
+  buttons.forEach(btn => {
+    if(btn.innerText === buttonText) {
+        btn.style.outline="solid";     
+    }
+  })
+}
+outlineElement(buttons, 'More');
+'''
+
+---
+
+## Work expirience:
+
+- 4.5 years of automation testing in JAVA, combined with manual testing and accessibility bugs testing.
 ---
 
 ## Languages:
